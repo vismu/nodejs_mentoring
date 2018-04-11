@@ -1,0 +1,24 @@
+{
+  "name": "nodejs_mentoring",
+  "version": "1.0.0",
+  "description": "Learning nodejs with epam mentoring program",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vismu/nodejs_mentoring.git"
+  },
+  "keywords": [
+    "nodejs",
+    "epam",
+    "mentoring"
+  ],
+  "author": "Sergey Gavrilov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vismu/nodejs_mentoring/issues"
+  },
+  "homepage": "https://github.com/vismu/nodejs_mentoring#readme"
+}
