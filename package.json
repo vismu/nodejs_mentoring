@@ -4,7 +4,7 @@
   "description": "Learning nodejs with epam mentoring program",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon --watch app.js",
+    "start": "nodemon app.js --exec babel-node",
     "test": "test"
   },
   "repository": {
@@ -23,10 +23,10 @@
   },
   "homepage": "https://github.com/vismu/nodejs_mentoring#readme",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-stage-2": "^6.24.1",
-    "babel-register": "^6.26.0",
     "nodemon": "^1.17.3"
   }
 }
