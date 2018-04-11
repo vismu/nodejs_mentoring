@@ -4,6 +4,7 @@
   "description": "Learning nodejs with epam mentoring program",
   "main": "app.js",
   "scripts": {
+    "start": "nodemon --watch app.js",
     "test": "test"
   },
   "repository": {
