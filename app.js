@@ -1,4 +1,4 @@
-import config from './config/default';
+import config from './config';
 import { User, Product } from './models';
 
 console.log(config.name);
